@@ -32,8 +32,8 @@ public class MainActivity extends Activity implements SensorEventListener {
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE); // Получаем менеджер сенсоров
         setContentView(R.layout.activity_main);
         setContentView(new DrawView(this));
-        x=max_x/2;
-        y=max_y/2;
+        x=max_x/4;
+        y=max_y/4;
         s=2;r=50;
 
     }
